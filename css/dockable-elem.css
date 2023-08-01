@@ -1,0 +1,15 @@
+.dockable_elem-dragging {
+    z-index: 3;
+    opacity: 0.6;
+}
+
+.dockable_elem-ghost {
+    z-index: 1 !important;
+    position: relative;
+    background: #ffffffa0;
+}
+
+.dockable_elem-transition {
+    z-index: 2;
+    position: relative;
+}

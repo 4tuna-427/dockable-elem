@@ -1,0 +1,17 @@
+{
+  "name": "dockable-elem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "4tuna",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
