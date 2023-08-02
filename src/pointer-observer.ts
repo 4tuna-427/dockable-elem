@@ -20,7 +20,7 @@ export default class PointerObserver {
         window.addEventListener('pointerdown', (event) => {
             PointerObserver.paramObjects = []
             pushParam(event)
-        })
+        }, { capture: true })
 
         window.addEventListener('pointermove', (event) => {
             PointerObserver.paramObjects = []
@@ -28,12 +28,12 @@ export default class PointerObserver {
             events.forEach(e => {
                 pushParam(e)
             })
-        })
+        }, { capture: true })
 
         window.addEventListener('pointerup', (event) => {
             PointerObserver.paramObjects = []
             pushParam(event)
-        })
+        }, { capture: true })
     }
 
     static array(): PointerParamObject[] {
